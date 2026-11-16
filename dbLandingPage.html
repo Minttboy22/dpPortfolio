@@ -1,0 +1,134 @@
+<head>
+  <title>Minttboy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Play:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="dbportfolio.css">
+
+  <style>
+
+    body {
+  font-family: "play";
+  background-image: url("https://lh3.googleusercontent.com/d/1c-Hmw2fdYD30NTVlCxBo_f69NgxGcVlz;");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+@media(width < 450px) {
+  .pageContainer {
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    width: 100%;
+    height: fit-content;
+    background-color: #ff000075;
+  }
+
+  .header h1 {
+    font-size: 40px;
+  }
+
+  .blocksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .blockButton {
+    width: 100%;
+    height: 100px;
+    background-color: #00ff0075;
+  }
+
+  .footer {
+    width: 100%;
+    height: fit-content;
+    background-color: #ff000075;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 0px;
+
+  }
+
+  .social img {
+    width: 50px;
+    height: auto;
+    transition: 0.1s;
+    filter: brightness(150%);
+  }
+
+  .container-book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #book {
+    background: transparent;
+    filter: drop-shadow(-10px 20px 12px #000000);
+  }
+
+  .my-page {
+    background-color: transparent;
+    overflow: hidden;
+  }
+
+  .my-page img {
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Páginas Izquierdas (Lado izquierdo del libro abierto / Contraportada) */
+  .stf__item.--left,
+  .stf__item.--left img {
+    border-radius: 12px 0px 0px 12px !important;
+    overflow: hidden;
+  }
+
+/* Páginas Derechas (Portada / Lado derecho del libro abierto) */
+  .stf__item.--right,
+  .stf__item.--right img {
+    border-radius: 0px 12px 12px 0px !important;
+    overflow: hidden;
+  }
+}
+
+  </style>
+
+</head>
+<body>
+
+<div class="pageContainer">
+  <div class="header"><h1>Minttboy</h1></div>
+  <div class="blocksContainer">
+    <div class="block block1"><h2>Sobre mi</h2>
+      <div class="blockButton"></div>
+    </div>
+    <div class="block block2"><h2>Sketchbook</h2>
+      <div class="blockButton"></div>
+    </div>
+    <div class="block block3"><h2>Dibujos digitales</h2>
+      <div class="blockButton"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="social gmail"><img src="https://lh3.googleusercontent.com/d/1_rrIaEtEBizZqA7e1pKtqFsvgXyZ4mj-"></div>
+    <div class="social whatsapp"><img src="https://lh3.googleusercontent.com/d/1R2JVkMu2xkF2ZPUCEqoLek-dih6V5bPP"></div>
+    <div class="social x"><img src="https://lh3.googleusercontent.com/d/14CLjj4NRKhWXUxpXJEf3KQAwnycUzZIU"></div>
+    <div class="social instagram"><img src="https://lh3.googleusercontent.com/d/1-Ok4HT8MUFoYSk0LhjwiY8ICzJutApXh"></div>
+  </div>
+</div>
+</body>
